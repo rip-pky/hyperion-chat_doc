@@ -24,14 +24,3 @@ Para garantir que o Hyperion rode liso, utilizamos o sistema de build **Ninja**.
 * Compilador C++ (MSVC, GCC ou Clang)
 * CMake 3.10+
 
-### Como Compilar
-```bash
-# Clone o repositório
-git clone [https://github.com/rip-pky/hyperion-chat_doc.git](https://github.com/rip-pky/hyperion-chat_doc.git)
-cd hyperion-chat_doc
-
-# Configure o build com Ninja
-cmake -G Ninja -B build
-
-# Compile o projeto
-cmake --build build
